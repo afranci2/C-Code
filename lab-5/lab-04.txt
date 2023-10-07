@@ -1,0 +1,13 @@
+
+Anthony Francisco
+Redwan Albadawi
+Keilin Solis
+Todd Maxcy
+
+1. Change condition to i <= 10
+2. Make a while loop that doesnt increment variable or check
+3. The error is in incrementing i and decementing i. It will also be the same
+4. It will infinitely loop because it check true instead of in
+5. There is no bracket in for loop
+6. It will run until i is 0. i will never reach 10
+7. 140

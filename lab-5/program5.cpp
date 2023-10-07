@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main()
+{
+    int sum = 0;
+    for (int i = 0; i <= 10; i++)
+    {
+        if (i % 2 == 0)
+        {
+            for (int j; j <= 5; j++)
+            {
+                sum += i * j;
+            }
+        }
+        else
+        {
+            for (int j = (10 - i); j <= 5; j--)
+            {
+                sum += i * j;
+            }
+        }
+    }
+}
