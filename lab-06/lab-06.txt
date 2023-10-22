@@ -1,0 +1,33 @@
+Anthony Francisco
+Redwan Albadawi
+Keilin Solis
+Todd Maxcy
+
+1. The largest size string we could store into the variable char 
+myString[10]; is 9 characters. One character is 
+reserved for the null terminator ('\0').
+
+2. The largest size string we can store of variable n is n-1
+
+3. If a string has no null terminator, it won't be recognized as a 
+ C-style string, and functions that operate on C-style strings 
+will not work correctly. 
+
+4. We can iterate through the characters in the string until we 
+find a null terminator ('\0'). 
+
+7. In this example, the copyString function is used to copy the 
+content of the source string into the destination string. The copy 
+function takes two parameters: dest, src
+
+8. In this example, the swapStrings function is used to swap the content 
+of two strings (str1 and str2). The swap function of the std::string class 
+takes one parameter: str2, 
+
+9. In this example, the insertSubstring function is used to insert a subStr 
+into the mainStr at a specified position. The insert function of the 
+std::string class takes three parameters: position, subStr. After the insertion, 
+the mainStr will contain the subStr at the specified position. The insert 
+function has multiple versions because it allows for various ways to specify 
+the insertion position and substring, providing flexibility for different 
+use cases.
