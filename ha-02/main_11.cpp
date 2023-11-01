@@ -10,19 +10,19 @@ int main()
 
     for (int i = 1; i <= rows; ++i)
     {
-        for (int j = 0; j < rows - i; ++j)
+        for (int j = 0; j < rows - i - 1; ++j)
         {
-            std::cout << "  "; // Print two spaces for each position
+            std::cout << "  "; 
         }
 
         for (char c = 'A'; c < 'A' + i; ++c)
         {
-            std::cout << c << " "; // Print the character followed by a space
+            std::cout << c << " ";
         }
 
         for (char c = 'A' + i - 2; c >= 'A'; --c)
         {
-            std::cout << c ; // Print the character followed by a space
+            std::cout << c ;
         }
 
         std::cout << std::endl;
